@@ -1,0 +1,101 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bolder;
+
+}
+img{
+    width: 100%;
+}
+ul li{
+    display: inline-block;
+    padding: 2rem;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    text-decoration-style: none;
+
+    
+}
+.main{
+    display:flex;
+    flex-direction: row;
+   
+}
+.center{
+align-content: flex-end;
+width: 70%;
+
+}
+.side{
+    width:30%;
+    padding:30px;
+   
+    
+}
+#side_title{
+    margin-left: 30px;
+
+
+}
+
+
+a{
+    text-decoration: none;  
+}
+p{
+    font-family: monospace;
+    
+}
+nav{
+    background-color: #b377ae; 
+    
+}
+.wrapper{
+    font-family: monospace;
+    background-color: antiquewhite;
+    max-width: 1400px ;
+    margin: 0 auto;
+    padding: 2px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: grey;
+    border-radius: 5px;
+}
+#navbarTogglerDemo01{
+    background-color: #daa9ef;
+
+} 
+@media screen and (max-width: 1000px) {
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.center{
+    width:100%;
+
+}
+.side{
+   width:100%;
+   padding: 0;
+
+}
+#side_title{
+    margin:0 auto;
+}
+}
+footer{
+    text-align: center;
+    margin: auto;
+    background-color: #009688;
+    color: #ccffff;
+    font-family: monospace, sans-serif;
+} 
