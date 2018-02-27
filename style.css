@@ -4,7 +4,8 @@ h1 {
   text-align: center;
   font-weight: bold;
 }
-h2 {
+h2,
+h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.5rem;
   text-align: center;
@@ -44,9 +45,7 @@ a {
 p {
   font-family: monospace;
 }
-nav {
-  background-color: #b377ae;
-}
+
 .wrapper {
   font-family: monospace;
   background-color: antiquewhite;
@@ -59,7 +58,8 @@ nav {
   border-radius: 5px;
 }
 #navbarTogglerDemo01 {
-  background-color: #daa9ef;
+  background-color: #f8f9fa;
+  width: 100%;
 }
 @media screen and (max-width: 1000px) {
   .main {
